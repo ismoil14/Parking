@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,700;1,900&family=Poppins:wght@200;300;500;600&display=swap");
+
+.ContNav {
+  padding: 4vh 6vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--back);
+    z-index: 111;
+}
+
+.Logo {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.Logo span {
+  font-weight: 200;
+}
+
+.RightCont {
+  display: flex;
+  align-items: center;gap: 20px;
+}
+
+.search__label {
+  position: relative;
+}
+
+.search__icon {
+  font-weight: 100;
+  font-size: 21px;
+  position: absolute;
+  left: 11px;
+  top: 7px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.search__input {
+  background: rgb(40, 43, 48);
+  border: 1px solid rgb(40, 43, 48);
+  outline: none;
+  color: #fff;
+  padding: 6px 8px 6px 39px;
+  font-size: 14px;
+  border-radius: 20px;
+  height: 32px;
+  width: 220px;
+}
+
+.search__input::-webkit-input-placeholder {
+  color: #b7bac2;
+}
+/* ! card styles */
+
+
+.userCont{
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+.userCont svg{
+  font-size: 32px;
+  color: #fff;
+}
+.logoutCont{
+  cursor: pointer;
+  font-size: 16px;
+  color: #b71405;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 13px;
+
+}
+

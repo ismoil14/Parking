@@ -1,0 +1,98 @@
+.App__sidebar {
+  /* display: flex;
+  flex-direction: column;
+  padding: 4vh 6vh;
+  gap: 20px;
+  padding-top: 0;
+  background-color: var(--back); */
+  /* position: sticky; */
+
+  display: flex;
+  flex-direction: column;
+  padding: 4vh 6vh;
+  gap: 20px;
+  padding-top: 0;
+  background-color: var(--back);
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+
+}
+.App__sidebar p {
+  width: 100%;
+  max-width: 100%;
+}
+.App__sidebar a {
+  width: 55px;
+  height: 55px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App__sidebar a:hover{
+  border-color: var(--yello);
+}
+.App-header {
+  background-color: #1b1b23;
+  width: 100%;
+  max-width: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  /* min-height: 100vh; */
+}
+.click_logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #23232d;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+.click_logo img {
+  width: 100%;
+}
+
+
+/* .active,
+  a.active > i {
+    color: #05beef;
+    background-color: #373845;
+  } */
+.side__big {
+  width: 100%;
+  min-height: 84vh;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 4vh; */
+}
+.side__bloc {
+  width: 100%;
+  margin-left: 10%;
+  /* height: 100vh; */
+  /* overflow-y: scroll; */
+}
+
+.App__sidebar a.active {
+  background: var(--yello);
+  border: 1px solid var(--yello);
+}
+.App__sidebar a.active > svg,
+i {
+  color: #14171d !important;
+}
+
+
+.kkk{
+  width: 1500px;
+  height: 50vh;
+  background-color: brown;
+}
